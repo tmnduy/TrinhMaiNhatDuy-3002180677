@@ -58,7 +58,7 @@ marquee>h2 {
     flex-wrap: wrap;
 }
 
-.content__left > .content__left-card {
+.content__left>.content__left-card {
     width: 30%;
     margin: 10px;
 }
@@ -66,4 +66,26 @@ marquee>h2 {
 .content__left-card>img {
     width: 100%;
     border-radius: 10px;
+}
+
+.content__right {
+    width: 30%;
+}
+
+.content__right-tableMenu {
+    width: 100%;
+}
+
+.content__right-tableMenu>ul {
+    list-style: none;
+    text-align: right;
+    background-color: #FF0033;
+}
+
+.content__right-tableMenu>ul>li{
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid gold;
 }
