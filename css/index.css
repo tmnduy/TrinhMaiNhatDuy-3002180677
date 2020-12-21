@@ -21,14 +21,24 @@
     background-color: #FF0033;
     list-style: none;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 .nav>ul>li {
     text-transform: uppercase;
     padding: 10px 35px;
+    color: white;
+    font-size: 13px;
 }
 .banner{
     width: 100%;
     height: 300px;
     background-image: url(../assets/img/banner1.jpg);
+}
+marquee{
+    background-color: #FF0033;
+}
+marquee > h2 {
+    margin: 0;
+    color: white;
 }
